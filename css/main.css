@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+.Cina{
+  background-image: url(../img/Shenzhen.jpg);
+}
+
+.Italy{
+  background-image: url(../img/Torino.jpg);
+}
+
+.Manfredonia{
+  background-image: url(../img/Manfredonia.jpg);
+}
