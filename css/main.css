@@ -4,6 +4,14 @@
   border: 0;
 }
 
+div{
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 33vh;
+  border-radius: 33px
+}
+
 
 .Cina{
   background-image: url(../img/Shenzhen.jpg);
