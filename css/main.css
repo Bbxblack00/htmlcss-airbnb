@@ -2,14 +2,20 @@
   margin: 0;
   padding: 0;
   border: 0;
+  font-family: 'Hachi Maru Pop', cursive;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+
+/* CONTEINER */
 div{
   background-size: cover;
   background-position: center;
   width: 100vw;
   height: 33vh;
-  border-radius: 33px
+  /* border-radius: 33px; */
+  position: relative;
+  z-index: 50;
 }
 
 
@@ -17,10 +23,46 @@ div{
   background-image: url(../img/Shenzhen.jpg);
 }
 
-.Italy{
+.Torino{
   background-image: url(../img/Torino.jpg);
 }
 
 .Manfredonia{
   background-image: url(../img/Manfredonia.jpg);
+}
+
+/* WORDS */
+span{
+  font-size: 85px;
+  color: white;
+  position: absolute;
+  z-index: 150;
+}
+
+.Cina span{
+  top: 16vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+}
+
+.Torino span{
+  top: 16vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+}
+
+.Manfredonia span{
+  top: 16vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+}
+
+.layover{
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 100;
 }
